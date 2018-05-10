@@ -23,3 +23,5 @@ Le funzionalità del software da analizzare e impletentare erano:
   - Eliminazione di un evento
 - Generazione di statistiche relative ad uno o più eventi da parte dei dipendenti
 - Validazione dell'ingresso (tramite scansionamento del codice QR del biglietto) da parte di un addetto alla security
+
+Ogni caso d'uso è stato poi utilizzato per l'individuazione degli oggetti utilizzati per quella interazione e usati per costruire il **class diagram** relativo secondo il three-object-type, distinguendo gli oggetti in *boundary*, *control* ed *entity*. Contemporaneamente alla generazione del class diagram è stata affiancata la stesura del relativo **sequence diagram** raffigurante il caso di successo dell'operazione.
