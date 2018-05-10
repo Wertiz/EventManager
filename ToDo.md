@@ -11,7 +11,7 @@
 - [x] Scrivere il Cockburn dell'aggiunta di un evento
 - [x] Scrivere il Cockburn della rimozione di un evento
 - [x] Scrivere il Cockburn della modifica di un evento
-- [ ] Scrivere il Cockburn della validazione di un codice QR **killtheprocess21**
+- [x] Scrivere il Cockburn della validazione di un codice QR **killtheprocess21**
 ### Modelli di Dominio
 - [x] Identificare oggetti in visualizzazione statistiche
 - [x] Disegnare il Sequence Diagram della visualizzazione statistiche
