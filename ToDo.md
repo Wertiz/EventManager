@@ -39,5 +39,4 @@
 - [ ] Disegnare Activity Diagram di Rimuovi Evento
 - [ ] Disegnare Activity Diagram di Modifica Evento
 - [ ] Disegnare Activity Diagram di Validazione di un codice QR
-
 - [ ] **Scrivere il Documento dei Requisiti**
