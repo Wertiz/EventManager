@@ -23,16 +23,21 @@
 - [ ] Disegnare il Sequence Diagram della modifica di un evento *killtheprocess21*
 - [ ] Identificare oggetti in validazione codice QR
 - [ ] Disegnare il Sequence Diagram della validazione di un codice QR
+
 *Non tutti gli state chart potrebbero essere necessari*
+
 - [ ] Disegnare Statechart di Visualizza statistiche  
 - [ ] Disegnare Statechart di Aggiungi Evento
 - [ ] Disegnare Statechart di Rimuovi Evento
 - [ ] Disegnare Statechart di Modifica Evento
 - [ ] Disegnare Statechart della Validazione codice QR
+
 *Non tutti gli activity diagram potrebbero essere necessari*
+
 - [ ] Disegnare Activity Diagram di Visualizzazione Statistiche
 - [ ] Disegnare Activity Diagram di Aggiungi Evento
 - [ ] Disegnare Activity Diagram di Rimuovi Evento
 - [ ] Disegnare Activity Diagram di Modifica Evento
 - [ ] Disegnare Activity Diagram di Validazione di un codice QR
+
 - [ ] **Scrivere il Documento dei Requisiti**
