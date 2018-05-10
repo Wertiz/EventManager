@@ -24,4 +24,4 @@
 - [ ] Identificare oggetti in validazione codice QR
 - [ ] Disegnare il Sequence Diagram della validazione di un codice QR
 
-**- [ ] Scrivere il Documento dei Requisiti**
+- [ ] Scrivere il Documento dei Requisiti
