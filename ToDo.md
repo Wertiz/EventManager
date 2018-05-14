@@ -25,9 +25,7 @@
 - [ ] Disegnare il Sequence Diagram della modifica di un evento **killtheprocess21**
 - [ ] Identificare oggetti in validazione codice QR
 - [ ] Disegnare il Sequence Diagram della validazione di un codice QR
-
 - [ ] Disegnare Statechart della Validazione codice QR
-
 - [ ] Disegnare Activity Diagram di Validazione di un codice QR
 
 - [ ] **Scrivere il Documento dei Requisiti**
