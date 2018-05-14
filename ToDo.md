@@ -11,7 +11,7 @@
 - [x] Scrivere il Cockburn dell'aggiunta di un evento
 - [x] Scrivere il Cockburn della rimozione di un evento
 - [x] Scrivere il Cockburn della modifica di un evento
-- [x] Scrivere il Cockburn della validazione di un codice QR **killtheprocess21**
+- [x] Scrivere il Cockburn della validazione di un codice QR **killtheprocess23**
 - [ ] Scrivere il diagramma di Gantt
 
 ### Modelli di Dominio
@@ -19,12 +19,12 @@
 - [x] Disegnare il Sequence Diagram della visualizzazione statistiche
 - [x] Identificare oggetti in Aggiungere Evento
 - [x] Disegnare il Sequence Diagram dell'aggiunta di un evento
-- [ ] Identificare oggetti in Rimuovi Evento **killtheprocess21**
-- [ ] Disegnare il Sequence Diagram della rimozione di un evento **killtheprocess21**
-- [ ] Identificare oggetti in Modifica Evento **killtheprocess21**
-- [x] Disegnare il Sequence Diagram della modifica di un evento **killtheprocess21**
-- [ ] Identificare oggetti in validazione codice QR
-- [ ] Disegnare il Sequence Diagram della validazione di un codice QR
-- [ ] Disegnare Statechart della Validazione codice QR
+- [ ] Identificare oggetti in Rimuovi Evento **killtheprocess23**
+- [ ] Disegnare il Sequence Diagram della rimozione di un evento **killtheprocess23**
+- [ ] Identificare oggetti in Modifica Evento **killtheprocess23**
+- [x] Disegnare il Sequence Diagram della modifica di un evento **killtheprocess23**
+- [x] Identificare oggetti in validazione codice QR
+- [x] Disegnare il Sequence Diagram della validazione di un codice QR
+- [ ] Disegnare Statechart della Validazione codice QR **killtheprocess23**
 - [ ] Disegnare Activity Diagram di Validazione di un codice QR
 - [ ] **Scrivere il Documento dei Requisiti**
