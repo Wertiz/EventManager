@@ -22,7 +22,7 @@
 - [ ] Identificare oggetti in Rimuovi Evento **killtheprocess21**
 - [ ] Disegnare il Sequence Diagram della rimozione di un evento **killtheprocess21**
 - [ ] Identificare oggetti in Modifica Evento **killtheprocess21**
-- [ ] Disegnare il Sequence Diagram della modifica di un evento **killtheprocess21**
+- [x] Disegnare il Sequence Diagram della modifica di un evento **killtheprocess21**
 - [ ] Identificare oggetti in validazione codice QR
 - [ ] Disegnare il Sequence Diagram della validazione di un codice QR
 - [ ] Disegnare Statechart della Validazione codice QR
