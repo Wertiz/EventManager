@@ -27,5 +27,4 @@
 - [ ] Disegnare il Sequence Diagram della validazione di un codice QR
 - [ ] Disegnare Statechart della Validazione codice QR
 - [ ] Disegnare Activity Diagram di Validazione di un codice QR
-
 - [ ] **Scrivere il Documento dei Requisiti**
