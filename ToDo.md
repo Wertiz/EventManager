@@ -4,9 +4,9 @@
 
 ### Modello Funzionale
 - [x] Disegnare il diagramma dei casi d'uso
-- [ ] Far revisionare il diagramma dei casi d'uso
+- [x] Far revisionare il diagramma dei casi d'uso
 - [x] Disegnare i Mockup
-- [ ] Far revisionare i Mockup
+- [x] Far revisionare i Mockup
 - [x] Scrivere il Cockburn della visualizzazione statistiche
 - [x] Scrivere il Cockburn dell'aggiunta di un evento
 - [x] Scrivere il Cockburn della rimozione di un evento
@@ -19,9 +19,9 @@
 - [x] Disegnare il Sequence Diagram della visualizzazione statistiche
 - [x] Identificare oggetti in Aggiungere Evento
 - [x] Disegnare il Sequence Diagram dell'aggiunta di un evento
-- [ ] Identificare oggetti in Rimuovi Evento **killtheprocess23**
-- [ ] Disegnare il Sequence Diagram della rimozione di un evento **killtheprocess23**
-- [ ] Identificare oggetti in Modifica Evento **killtheprocess23**
+- [x] Identificare oggetti in Rimuovi Evento **killtheprocess23**
+- [x] Disegnare il Sequence Diagram della rimozione di un evento **killtheprocess23**
+- [x] Identificare oggetti in Modifica Evento **killtheprocess23**
 - [x] Disegnare il Sequence Diagram della modifica di un evento **killtheprocess23**
 - [x] Identificare oggetti in validazione codice QR
 - [x] Disegnare il Sequence Diagram della validazione di un codice QR
