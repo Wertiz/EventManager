@@ -4,7 +4,7 @@
 
 ### Modello Funzionale
 - [x] Disegnare il diagramma dei casi d'uso
-- [x] Far revisionare il diagramma dei casi d'uso
+- [x] ~~Far revisionare il diagramma dei casi d'uso~~
 - [x] Disegnare i Mockup
 - [x] Far revisionare i Mockup
 - [x] Scrivere il Cockburn della visualizzazione statistiche
@@ -26,5 +26,19 @@
 - [x] Identificare oggetti in validazione codice QR
 - [x] Disegnare il Sequence Diagram della validazione di un codice QR
 - [ ] Disegnare Statechart della Validazione codice QR **killtheprocess23**
-- [ ] Disegnare Activity Diagram di Validazione di un codice QR
+- [x] ~~Disegnare Activity Diagram di Validazione di un codice QR~~
 - [ ] **Scrivere il Documento dei Requisiti**
+
+## Design del Sistema
+
+### Applicazione Desktop
+- [ ] Realizzare il class Diagram delle Entity **killtheprocess23**
+- [ ] Realizzare il class Diagram dei DAO **killtheprocess23**
+- [ ] Realizzare il class Diagram dei Controller 
+- [ ] Realizzare il class Diagram dei Boundary **killtheprocess23**
+
+### Applicazione Android
+- [ ] Realizzare il class Diagram delle Activity
+
+### Database
+- [ ] Realizzare il class Diagram del Database
