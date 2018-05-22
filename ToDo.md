@@ -36,7 +36,10 @@
 - [ ] Realizzare il class Diagram dei DAO **killtheprocess23**
 - [ ] Realizzare il class Diagram dei Controller 
 - [ ] Realizzare il class Diagram dei Boundary **killtheprocess23**
-      La boundary della creazione dell'evento deve avere un metodo chiamato 'getNewEvento(): Evento'
+      
+      La boundary della creazione dell'evento deve avere un metodo che restituisce l'evento inserito (es. getNewEvent(): Evento)
+      analogamente modify che restituisce l'evento modificato ma anche un metodo che accetta un evento (per popolare i campi)
+      Entrambe le boundary devono avere un metodo che informa il chiamante se i campi sono tutti pieni (es. validateForms(): boolean)
 
 ### Applicazione Android
 - [ ] Realizzare il class Diagram delle Activity
