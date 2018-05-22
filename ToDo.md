@@ -36,6 +36,7 @@
 - [ ] Realizzare il class Diagram dei DAO **killtheprocess23**
 - [ ] Realizzare il class Diagram dei Controller 
 - [ ] Realizzare il class Diagram dei Boundary **killtheprocess23**
+      La boundary della creazione dell'evento deve avere un metodo chiamato 'getNewEvento(): Evento'
 
 ### Applicazione Android
 - [ ] Realizzare il class Diagram delle Activity
