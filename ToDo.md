@@ -42,10 +42,15 @@
       Entrambe le boundary devono avere un metodo che informa il chiamante se i campi sono tutti pieni (es. validateForms(): boolean)
       La boundary delle statistiche deve avere un metodo che accetta delle statistiche, per fillare il contenuto (es. fill(s: Statistiche).
       Tutte le boundary dovranno estendere JPanel (mi pare eh) così non devi specificare i metodi show(), setVisible() ecc...
-      Le boundary NON devono implementare Observer ecc..., per quello che serve a noi è un po' limitante e quindi lo evitiamo
+      Le boundary NON devono implementare Observer ecc..., per quello che serve a noi è un po' limitante e quindi lo evitiam
+- [ ] Realizzare il Sequence Diagram dell'aggiunta di un evento
+- [ ] Realizzare il Sequence Diagram della modifica di un evento
+- [ ] Realizzare il Sequence Diagram della rimozione di un evento
+- [ ] Realizzare il Sequence Diagram della generazione delle statistiche
 
 ### Applicazione Android
 - [ ] Realizzare il class Diagram delle Activity
+- [ ] Realizzare il Sequence Diagram dello scan del QR code 
 
 ### Database
-- [ ] Realizzare il class Diagram del Database
+- [X] Realizzare il class Diagram del Database
