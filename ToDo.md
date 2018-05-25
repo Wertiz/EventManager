@@ -25,7 +25,7 @@
 - [x] Disegnare il Sequence Diagram della modifica di un evento **killtheprocess23**
 - [x] Identificare oggetti in validazione codice QR
 - [x] Disegnare il Sequence Diagram della validazione di un codice QR
-- [ ] Disegnare Statechart della Validazione codice QR **killtheprocess23**
+- [ ] ~~Disegnare Statechart della Validazione codice QR **killtheprocess23**~~
 - [x] ~~Disegnare Activity Diagram di Validazione di un codice QR~~
 - [ ] **Scrivere il Documento dei Requisiti**
 
@@ -35,23 +35,15 @@
 - [ ] Realizzare il class Diagram delle Entity **killtheprocess23**
 - [ ] Realizzare il class Diagram dei DAO **killtheprocess23**
 - [x] Realizzare il class Diagram dei Controller 
-- [ ] Realizzare il class Diagram dei Boundary **killtheprocess23**
-      
-      /*La boundary della creazione dell'evento deve avere un metodo che restituisce l'evento inserito (es. getNewEvent(): Evento)
-      analogamente modify che restituisce l'evento modificato ma anche un metodo che accetta un evento (per popolare i campi)
-      Entrambe le boundary devono avere un metodo che informa il chiamante se i campi sono tutti pieni (es. validateForms(): boolean)
-      La boundary delle statistiche deve avere un metodo che accetta delle statistiche, per fillare il contenuto (es. fill(s: Statistiche).
-      Tutte le boundary dovranno estendere JPanel (mi pare eh) così non devi specificare i metodi show(), setVisible() ecc...
-      Le boundary NON devono implementare Observer ecc..., per quello che serve a noi è un po' limitante e quindi lo evitiam*/
-      
-- [ ] Realizzare il Sequence Diagram dell'aggiunta di un evento **illtheprocess23**
-- [ ] Realizzare il Sequence Diagram della modifica di un evento **illtheprocess23**
-- [ ] Realizzare il Sequence Diagram della rimozione di un evento **illtheprocess23**
-- [ ] Realizzare il Sequence Diagram della generazione delle statistiche
+- [ ] Realizzare il class Diagram dei Boundary **killtheprocess23**     
+- [ ] Realizzare il Sequence Diagram dell'aggiunta di un evento **killtheprocess23**
+- [ ] Realizzare il Sequence Diagram della modifica di un evento **killtheprocess23**
+- [ ] Realizzare il Sequence Diagram della rimozione di un evento **killtheprocess23**
+- [x] Realizzare il Sequence Diagram della generazione delle statistiche
 
 ### Applicazione Android
 - [x] Realizzare il class Diagram delle Activity
-- [ ] Realizzare il Sequence Diagram dello scan del QR code 
+- [x] Realizzare il Sequence Diagram dello scan del QR code 
 
 ### Database
 - [x] Realizzare il class Diagram del Database
