@@ -25,3 +25,20 @@ Le funzionalità del software da analizzare e impletentare erano:
 - Validazione dell'ingresso (tramite scansionamento del codice QR del biglietto) da parte di un addetto alla security
 
 Ogni caso d'uso è stato poi utilizzato per l'individuazione degli oggetti utilizzati per quella interazione e usati per costruire il **class diagram** relativo secondo il three-object-type, distinguendo gli oggetti in *boundary*, *control* ed *entity*. Contemporaneamente alla generazione del class diagram è stata affiancata la stesura del relativo **sequence diagram** raffigurante il caso di successo dell'operazione.
+
+## Design del Sistema
+
+Partendo dai class e sequence diagram della fase precedenti, usati come "contratto" col committente del progetto e quindi scritti in un linguaggio non tecnico e con un certo livello di astrazione, si sono sviluppati i class e sequence diagram di design cercanco di far collimare più cose possibili con funzionalità già messe a disposizione dal linguaggio (JAVA).
+Per Android, molte delle funzionalità pensate, sono state accorpate in primitive quali *onCreate()* e *onStart* per le activity e *doInBackground* e *onPostExecute* per i task che richiedevano connessione ad internet e quindi risultavano essere bloccanti per la UI.
+Per Java invece si è sviluppato tutto il lato di interfaccie tramite JavaFX e tutte le azione sule interfacce sono state svolte tramite primite sui loro riferimenti.
+
+
+## Implementazione
+
+Una volta finito il Design del sistema si è passati all'implementazione del software seguendo tutti i diagrammi generati nella fase precedente.
+
+In questa fase ci siamo accorti di alcuni errori o dimenticanze dovuti ad una fase di progettazione e design non perfetta e ci siamo resi conto di quanto aggiustare una cosa mentre si sta già implementando il software possa essere dispendioso.
+
+## Testing
+
+L'ultima cosa rimanente da compiere era il testing dell'applicativo. Il committente ha specificato che dovevamo stilare un piano di testing di una sola classe e, di questa, testare effettivamemte solo due metodi.
