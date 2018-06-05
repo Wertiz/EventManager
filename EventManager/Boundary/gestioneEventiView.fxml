@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EventManager.Controller.GestioneEventiController">
+   <children>
+      <ScrollPane prefHeight="600.0" prefWidth="800.0">
+        <content>
+          <AnchorPane fx:id="anchorPane" minHeight="0.0" minWidth="0.0" pickOnBounds="false" prefHeight="594.0" prefWidth="795.0">
+               <children>
+                  <ToolBar layoutX="-2.0" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="35.0" prefWidth="800.0">
+                     <items>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" />
+                        <Pane disable="true" prefHeight="25.0" prefWidth="542.0" />
+                        <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../669560_search_512x512.png" />
+                           </image></ImageView>
+                        <TextField fx:id="searchBar" alignment="BASELINE_RIGHT" onKeyTyped="#searchEvent" prefHeight="25.0" prefWidth="159.0" promptText="Cerca evento..." />
+                     </items>
+                  </ToolBar>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

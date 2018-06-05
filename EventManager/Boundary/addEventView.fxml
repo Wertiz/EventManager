@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EventManager.Controller.EventCreateController">
+   <children>
+      <Text layoutX="66.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome Evento*">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nomeEvento" layoutX="66.0" layoutY="103.0" prefHeight="25.0" prefWidth="215.0" />
+      <ComboBox fx:id="tipo" layoutX="325.0" layoutY="102.0" prefWidth="150.0" />
+      <Text layoutX="325.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipo Evento*">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="66.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Organizzatore Evento/Artista*">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="org" layoutX="66.0" layoutY="167.0" />
+      <Pane layoutX="619.0" layoutY="75.0" prefHeight="105.0" prefWidth="105.0" style="-fx-border-color: #aaaaaa;" />
+      <ImageView fx:id="imageView" fitHeight="100.0" fitWidth="100.0" layoutX="621.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="imageChooser" layoutX="606.0" layoutY="182.0" mnemonicParsing="false" text="Seleziona immagine..." />
+      <Text layoutX="66.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luogo">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="nazione" disable="true" editable="true" layoutX="66.0" layoutY="269.0" prefWidth="150.0" promptText="Italia" />
+      <ComboBox fx:id="regione" layoutX="232.0" layoutY="269.0" prefHeight="25.0" prefWidth="115.0" />
+      <TextField fx:id="provincia" layoutX="356.0" layoutY="269.0" prefHeight="25.0" prefWidth="115.0" />
+      <TextField fx:id="indirizzo" layoutX="481.0" layoutY="269.0" prefHeight="25.0" prefWidth="198.0" />
+      <TextField fx:id="numeroCivico" layoutX="693.0" layoutY="269.0" prefHeight="25.0" prefWidth="65.0" />
+      <Text layoutX="66.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nazione*">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text layoutX="232.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Regione*">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text layoutX="356.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Provincia*">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text layoutX="481.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Indirizzo*">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text layoutX="693.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero Civico*">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text layoutX="66.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome della struttura">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <TextField fx:id="nomeStrutt" layoutX="66.0" layoutY="327.0" />
+      <Spinner fx:id="capienza" editable="true" initialValue="3" layoutX="232.0" layoutY="327.0" max="10000" min="0" prefHeight="25.0" prefWidth="60.0" />
+      <Text layoutX="232.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Capienza*">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <DatePicker fx:id="dataInizio" layoutX="66.0" layoutY="409.0" />
+      <ComboBox fx:id="ora1" layoutX="247.0" layoutY="409.0" minWidth="-Infinity" prefHeight="25.0" prefWidth="55.0" />
+      <ComboBox fx:id="minuti1" layoutX="311.0" layoutY="409.0" minWidth="-Infinity" prefHeight="25.0" prefWidth="55.0" />
+      <CheckBox fx:id="checkBox" layoutX="398.0" layoutY="413.0" mnemonicParsing="false" text="Fino a" />
+      <DatePicker fx:id="dataFine" disable="true" layoutX="462.0" layoutY="409.0" />
+      <ComboBox fx:id="minuti2" disable="true" layoutX="705.0" layoutY="409.0" minWidth="-Infinity" prefHeight="25.0" prefWidth="55.0" />
+      <ComboBox fx:id="ora2" disable="true" layoutX="643.0" layoutY="409.0" minWidth="-Infinity" prefHeight="25.0" prefWidth="55.0" />
+      <Text layoutX="66.0" layoutY="404.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data e ora*">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutY="210.0" prefHeight="0.0" prefWidth="800.0" />
+      <Separator layoutY="372.0" prefWidth="800.0" />
+      <Separator layoutY="57.0" prefWidth="800.0" />
+      <TextField fx:id="costo" layoutX="66.0" layoutY="500.0" prefHeight="25.0" prefWidth="65.0" />
+      <Text layoutX="66.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Costo biglietto*">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="136.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" text="€">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="305.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":" />
+      <Pane fx:id="backPane" prefHeight="57.0" prefWidth="800.0" style="-fx-background-color: #efcd7c;">
+         <children>
+            <Text fx:id="back" layoutX="22.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt; Torna indietro">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Text layoutX="700.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":" />
+      <Button fx:id="addButton" layoutX="351.0" layoutY="536.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="98.0" text="Aggiungi" onMouseClicked="#addButtonAction" />
+   </children>
+</AnchorPane>

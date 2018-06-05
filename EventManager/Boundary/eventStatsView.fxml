@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EventManager.Controller.EventStatsController">
+   <children>
+      <Pane fx:id="backPane" prefHeight="57.0" prefWidth="800.0" style="-fx-background-color: #efcd7c;">
+         <children>
+            <Text fx:id="back" layoutX="26.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt; Torna Indietro">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <BarChart fx:id="barStats" layoutX="34.0" layoutY="317.0" prefHeight="223.0" prefWidth="399.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <PieChart fx:id="pieStats" layoutX="419.0" layoutY="88.0" prefHeight="446.0" prefWidth="353.0" />
+      <Text fx:id="ticketSold" layoutX="84.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Biglietti Venduti: ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="ticketWhole" layoutX="104.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Biglietti Interi: ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="ticketReduced" layoutX="95.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Biglietti Ridotti: ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
