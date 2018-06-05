@@ -12,7 +12,7 @@
 - [x] Scrivere il Cockburn della rimozione di un evento
 - [x] Scrivere il Cockburn della modifica di un evento
 - [x] Scrivere il Cockburn della validazione di un codice QR **killtheprocess23**
-- [ ] Scrivere il diagramma di Gantt
+- [x] Scrivere il diagramma di Gantt
 
 ### Modelli di Dominio
 - [x] Identificare oggetti in visualizzazione statistiche
@@ -32,13 +32,13 @@
 ## Design del Sistema
 
 ### Applicazione Desktop
-- [ ] Realizzare il class Diagram delle Entity **killtheprocess23**
-- [ ] Realizzare il class Diagram dei DAO **killtheprocess23**
+- [x] Realizzare il class Diagram delle Entity **killtheprocess23**
+- [x] Realizzare il class Diagram dei DAO **killtheprocess23**
 - [x] Realizzare il class Diagram dei Controller 
-- [ ] Realizzare il class Diagram dei Boundary **killtheprocess23**     
-- [ ] Realizzare il Sequence Diagram dell'aggiunta di un evento **killtheprocess23**
-- [ ] Realizzare il Sequence Diagram della modifica di un evento **killtheprocess23**
-- [ ] Realizzare il Sequence Diagram della rimozione di un evento **killtheprocess23**
+- [x] Realizzare il class Diagram dei Boundary **killtheprocess23**     
+- [x] Realizzare il Sequence Diagram dell'aggiunta di un evento **killtheprocess23**
+- [x] Realizzare il Sequence Diagram della modifica di un evento **killtheprocess23**
+- [x] Realizzare il Sequence Diagram della rimozione di un evento **killtheprocess23**
 - [x] Realizzare il Sequence Diagram della generazione delle statistiche
 
 ### Applicazione Android
