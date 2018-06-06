@@ -41,4 +41,5 @@ In questa fase ci siamo accorti di alcuni errori o dimenticanze dovuti ad una fa
 
 ## Testing
 
-L'ultima cosa rimanente da compiere era il testing dell'applicativo. Il committente ha specificato che dovevamo stilare un piano di testing di una sola classe e, di questa, testare effettivamemte solo due metodi.
+L'ultima cosa rimanente da compiere era il testing dell'applicativo. Abbiamo usato un approccio Black Box, quindi dal punto di vista dell'utente, per definire un piano di testing per l'intero progamma e poi abbiamo scritto il codice JUnit per il test effettivo di due metodi della classe *ViewEventActivity* della componente android.
+Per Maggiori informazioni su quest'ultima parte consultare il [Documento del Piano di Testing](https://github.com/Wertiz/EventManager/blob/master/Piano%20di%20Testing.docx)
