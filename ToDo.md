@@ -26,7 +26,7 @@
 - [x] Identificare oggetti in validazione codice QR
 - [x] Disegnare il Sequence Diagram della validazione di un codice QR
 - [ ] ~~Disegnare Statechart della Validazione codice QR **killtheprocess23**~~
-- [x] ~~Disegnare Activity Diagram di Validazione di un codice QR~~
+- [ ] ~~Disegnare Activity Diagram di Validazione di un codice QR~~
 - [ ] **Scrivere il Documento dei Requisiti** **killtheprocess23**
 
 ## Design del Sistema
@@ -58,5 +58,5 @@
 
 ## Testing
 
-- [ ] Definizione piano di testing
-- [ ] Testing effettivo
+- [x] Definizione piano di testing
+- [x] Testing effettivo
